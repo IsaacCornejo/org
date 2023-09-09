@@ -3,13 +3,13 @@ import "./Footer.css"
 const Footer = () => {
     return <footer className='footer' style={{ backgroundImage: "url(/img/footer.png)" }}>
         <div className='redes'>
-            <a href='https://isaaccornejo.github.io/portfolio-alura-one/' target="_blank">
+            <a href='https://isaaccornejo.github.io/portfolio-alura-one/' target="_blank" rel="noreferrer">
                 <img src="/img/portfolio.png" alt='Portfolio' />
             </a>
-            <a href='https://github.com/IsaacCornejo/' target="_blank">
+            <a href='https://github.com/IsaacCornejo/' target="_blank" rel="noreferrer">
                 <img src="/img/github.png" alt='Github' />
             </a>
-            <a href='https://www.linkedin.com/in/isaac-cornejo-81aa14192/' target="_blank">
+            <a href='https://www.linkedin.com/in/isaac-cornejo-81aa14192/' target="_blank" rel="noreferrer">
                 <img src="/img/linkedin.png" alt='Linkedin' />
             </a>
         </div>
