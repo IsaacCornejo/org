@@ -1,0 +1,40 @@
+.equipo {
+  width: 100%;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+}
+
+.equipo h3 {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #212121;
+  border-bottom: 4px solid;
+  padding-bottom: 4px;
+}
+
+.colaboradores {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.input-color {
+  position: absolute;
+  right: 50px;
+}
+
+@media screen and (min-width: 0) {
+}
+
+@media screen and (max-width: 768px) {
+  .colaboradores {
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+}

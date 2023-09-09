@@ -1,0 +1,22 @@
+.header {
+  background-color: #6278f7;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.header img {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 0) {
+}
+
+@media screen and (max-width: 768px) {
+  .header img {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+}

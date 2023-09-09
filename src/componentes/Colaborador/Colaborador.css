@@ -1,0 +1,70 @@
+.colaborador {
+  width: 262px;
+  height: 272px;
+  background-color: white;
+  position: relative;
+  border-radius: 10px 10px 0 0;
+}
+
+.encabezado {
+  height: 90px;
+  background-color: coral;
+  border-radius: 10px 10px 0 0;
+}
+
+.encabezado img {
+  width: 45%;
+  border-radius: 50%;
+  top: 20px;
+  position: relative;
+}
+
+.info {
+  margin-top: 60px;
+}
+
+.info h4 {
+  margin: 0;
+  font-family: "Montserrat";
+  color: #6278f7;
+  font-size: 1.5rem;
+}
+
+.info h5 {
+  margin: 0;
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.btn-eliminar {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  font-size: 2rem;
+}
+
+.fav {
+  font-size: 2rem;
+}
+
+.favorito {
+  color: red;
+}
+
+@media screen and (min-width: 0) {
+}
+
+@media screen and (max-width: 768px) {
+  .colaborador {
+    width: 40%;
+  }
+
+  .encabezado img {
+    width: 65%;
+    top: 40px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+}

@@ -1,0 +1,17 @@
+.boton {
+  padding: 1.2rem;
+  font-family: "Montserrat", Arial;
+  font-size: 1rem;
+  margin-top: 2rem;
+  background-color: #6278f7;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.boton:hover,
+.boton:focus {
+  color: #95ffd4;
+}

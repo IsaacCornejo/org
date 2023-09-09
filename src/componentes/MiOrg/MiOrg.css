@@ -1,0 +1,40 @@
+.section__miOrg {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo__miOrg {
+  font-weight: 400;
+  font-size: 2.5rem;
+  border-bottom: 4px solid black;
+}
+
+.boton__miOrg {
+  position: absolute;
+  right: 100px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 0) {
+}
+
+@media screen and (max-width: 768px) {
+  .section__miOrg {
+    flex-direction: column;
+    order: 0;
+  }
+
+  .boton__miOrg {
+    position: initial;
+    cursor: pointer;
+  }
+
+  .titulo__miOrg {
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 992px) {
+}

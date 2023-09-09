@@ -1,0 +1,18 @@
+.select {
+  width: 100%;
+  background-color: white;
+  border: none;
+  font-family: "Montserrat", Arial;
+  font-size: 1rem;
+  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.1);
+  padding: 1rem 0.5rem;
+}
+
+.select:focus {
+  border: 2px solid #6278f7;
+}
+
+.option {
+  font-family: "Montserrat", Arial;
+  font-size: 1rem;
+}
